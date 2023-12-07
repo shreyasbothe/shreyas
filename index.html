@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootWear Showroom </title>
+    <style>
+     
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E85A4F;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }h3 {
+            background-color: #808080;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+
+
+         product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+		background-color:#85A4F;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+	
+	.product-image:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+        .product-title {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .product-price {
+            color: #e44d26;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FootWear Showroom</h1>
+    </header>
+<img src="shop1.jpg" alt="Shoes 1" class="product-image">
+<img src="shop2.jpg"alt="Shoes 1" class="product-image">
+<a href="shoes.html"><h3>OUR PRODUCTS</h3></a>
+</body>
+</html>
